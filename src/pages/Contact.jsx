@@ -55,11 +55,7 @@ const Contact = () => {
               </div>
             </div>
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-              <form
-                class="contact-form"
-                action="https://metanft.hasnaanajmi.co/mail.php"
-                method="post"
-              >
+              <form class="contact-form" action="" method="post">
                 <div class="form-group">
                   <input
                     type="text"

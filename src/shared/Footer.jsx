@@ -83,7 +83,8 @@ const Footer = () => {
           <div class="container">
             <div class="copyright d-flex align-items-center justify-content-md-between flex-sm-wrap justify-content-sm-center">
               <p>
-                Copyright &copy; 2022, <span>MetaNFT</span> All Rights Reserved.
+                Copyright &copy; 2022, <span>Intelligent System</span> All
+                Rights Reserved.
               </p>
               <ul class="list-unstyled social-media d-flex align-items-center">
                 <li>
