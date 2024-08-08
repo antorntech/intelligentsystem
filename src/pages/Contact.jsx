@@ -25,18 +25,18 @@ const Contact = () => {
                       </div>
                       <div class="content-box">
                         <h5>Mail</h5>
-                        <p>support@example.com</p>
+                        <p>support@gmail.com</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="contact-box d-flex align-items-center orange">
                       <div class="icon-box">
-                        <i class="fa fa-headphones"></i>
+                        <i class="fa fa-whatsapp"></i>
                       </div>
                       <div class="content-box">
                         <h5>Support</h5>
-                        <p>Join Discord</p>
+                        <p>+88016 0808 1907</p>
                       </div>
                     </div>
                   </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                       </div>
                       <div class="content-box">
                         <h5>Office</h5>
-                        <p>New York, 7412, USA</p>
+                        <p>Dhanmondi, Dhaka</p>
                       </div>
                     </div>
                   </div>
