@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeBlog = () => {
   return (
@@ -19,9 +20,9 @@ const HomeBlog = () => {
             </div>
             <div class="col-6">
               <div class="posts-more discover-more text-right">
-                <a href="blog.html" target="_blank">
+                <Link to="#0" target="_blank">
                   Discover more <i class="fa fa-angle-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
