@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomePortfolio = () => {
   const portfolios = [
@@ -36,9 +37,9 @@ const HomePortfolio = () => {
             </div>
             <div class="col-6">
               <div class="nft-more discover-more text-right">
-                <a href="shop.html" target="_blank">
+                <Link to="#0">
                   Discover more <i class="fa fa-angle-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
