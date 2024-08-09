@@ -12,8 +12,7 @@ const HomeBanner = () => {
             <div class="col-lg-6 order-lg-0 order-2">
               <div class="home-content">
                 <h1>
-                  Intelligence. Innovation. Future.
-                  <span class="cssanimation leFlyInLeft sequence">Now.</span>
+                  Intelligence. Innovation. Future. <span>Now.</span>
                 </h1>
                 <p>
                   Create a beautiful software product. Explore the best
