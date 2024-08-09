@@ -22,7 +22,7 @@ const HomeAbout = () => {
               />
             </div>
             <div class="col-12 col-lg-6 pt-4 pt-lg-0">
-              <p class="mb-5 text-justify text-white">
+              <p class="mb-5 text-center text-md-justify text-white">
                 Marcline LTD is a rapidly expanding offshore and onshore
                 software development, skill development, and outsourcing company
                 based in Bangladesh. We specialize in delivering global systems
