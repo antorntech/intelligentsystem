@@ -1,8 +1,14 @@
 /* all animation */
 
-.leFlyInLeft span {
+.leFlyInLeft {
   animation-name: leFlyInLeft;
   animation-timing-function: ease-in-out;
+  color: aliceblue;
+  font-family: "Michroma", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 @keyframes leFlyInLeft {
   0% {
