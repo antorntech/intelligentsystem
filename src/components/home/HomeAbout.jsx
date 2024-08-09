@@ -15,7 +15,7 @@ const HomeAbout = () => {
                 class="img-fluid w-100 p-1 bg-white"
               />
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 pt-4 pt-lg-0">
               <p class="mb-5 text-justify text-white">
                 Marcline LTD is a rapidly expanding offshore and onshore
                 software development, skill development, and outsourcing company

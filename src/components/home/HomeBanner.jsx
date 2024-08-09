@@ -19,7 +19,7 @@ const HomeBanner = () => {
                   collection from popular creative & digital Artists.
                 </p>
                 <div class="my-btn">
-                  <Link to="/software" class="main-btn">
+                  <Link to="/services" class="main-btn">
                     <i class="fa fa-rocket"></i> <span>Explore Items</span>
                   </Link>
                   <Link to="/" class="main-btn custom-btn">
