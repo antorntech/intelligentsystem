@@ -7,9 +7,13 @@ const HomeAbout = () => {
       <section class="trending-auctions">
         <div class="container">
           <h3 class="main-title">About</h3>
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-12 col-lg-6">
-              <img src="/images/marceline.png" alt="" class="img-fluid w-100" />
+              <img
+                src="/images/marceline.png"
+                alt=""
+                class="img-fluid w-100 p-1 bg-white"
+              />
             </div>
             <div class="col-12 col-lg-6">
               <p class="mb-5 text-justify text-white">
