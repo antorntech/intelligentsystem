@@ -1,10 +1,13 @@
 import React from "react";
 import HomeBanner from "../components/home/HomeBanner";
+import HomeAbout from "../components/home/HomeAbout";
 
 const Home = () => {
   return (
     <>
       <HomeBanner />
+
+      <HomeAbout />
 
       {/* <!-- ========== Start Trending Auctions ========== --> */}
 

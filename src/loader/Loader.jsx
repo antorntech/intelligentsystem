@@ -4,10 +4,7 @@ import "./Loader.css";
 const Loader = () => {
   return (
     <div class="loader-wrapper">
-      <div class="loader-overlay">
-        <div class="left-overlay"></div>
-        <div class="right-overlay"></div>
-      </div>
+      <div class="loader"></div>
     </div>
   );
 };
