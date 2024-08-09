@@ -20,7 +20,7 @@ const HomeBlog = () => {
             </div>
             <div class="col-6">
               <div class="posts-more discover-more text-right">
-                <Link to="#0" target="_blank">
+                <Link to="#0">
                   Discover more <i class="fa fa-angle-right"></i>
                 </Link>
               </div>
