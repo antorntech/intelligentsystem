@@ -6,7 +6,7 @@ import ScrollTop from "../scrolltop/ScrollTop";
 import Loader from "../loader/Loader";
 
 const AppLayout = () => {
-  const [isLoading, setIsLoading] = React.useState(true);
+  const [isLoading, setIsLoading] = React.useState(false);
 
   React.useEffect(() => {
     setTimeout(() => {

@@ -11,7 +11,7 @@ const HomeBanner = () => {
           <div class="row">
             <div class="col-lg-6 order-lg-0 order-2">
               <div class="home-content">
-                <h1>
+                <h1 class="cssanimation leFlyInLeft sequence">
                   Intelligence. Innovation. Future. <span>Now.</span>
                 </h1>
                 <p>

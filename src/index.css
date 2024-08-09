@@ -1,0 +1,15 @@
+/* all animation */
+
+.leFlyInLeft span {
+  animation-name: leFlyInLeft;
+  animation-timing-function: ease-in-out;
+}
+@keyframes leFlyInLeft {
+  0% {
+    transform: translate(-40px, 0px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(40px, 0px);
+  }
+}
