@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeService = () => {
   const services = [
@@ -61,13 +62,11 @@ const HomeService = () => {
               <div class="col-lg-4 col-md-6 item mb-4">
                 <div class="nft-box">
                   <div class="nft-box-thumb">
-                    <a href="#0">
-                      <img class="img-fluid" src={service.banner} alt="" />
-                    </a>
+                    <img class="img-fluid" src={service.banner} alt="" />
                     <div class="nft-box-btn-content">
-                      <a href="#0" class="nft-box-btn">
+                      <Link to="/service-details" class="nft-box-btn">
                         Read More <i class="fa fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div class="nft-box-content">

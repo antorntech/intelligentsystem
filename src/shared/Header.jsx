@@ -25,6 +25,11 @@ const Header = () => {
     },
     {
       id: 5,
+      title: "Blogs",
+      link: "/blogs",
+    },
+    {
+      id: 6,
       title: "About",
       link: "/about",
     },

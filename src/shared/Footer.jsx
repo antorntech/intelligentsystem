@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <>
       <footer class="footer">
@@ -83,8 +84,8 @@ const Footer = () => {
           <div class="container">
             <div class="copyright d-flex align-items-center justify-content-md-between flex-sm-wrap justify-content-sm-center">
               <p>
-                Copyright &copy; 2022, <span>Intelligent System</span> All
-                Rights Reserved.
+                Copyright &copy; {year}, <span>Marceline</span> Intelligent
+                System All Rights Reserved.
               </p>
               <ul class="list-unstyled social-media d-flex align-items-center">
                 <li>
