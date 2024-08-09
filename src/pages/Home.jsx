@@ -1,6 +1,7 @@
 import React from "react";
 import HomeBanner from "../components/home/HomeBanner";
 import HomeAbout from "../components/home/HomeAbout";
+import HomeService from "../components/home/HomeService";
 
 const Home = () => {
   return (
@@ -8,6 +9,8 @@ const Home = () => {
       <HomeBanner />
 
       <HomeAbout />
+
+      <HomeService />
 
       {/* <!-- ========== Start Trending Auctions ========== --> */}
 

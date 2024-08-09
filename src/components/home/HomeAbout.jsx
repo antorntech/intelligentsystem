@@ -6,7 +6,13 @@ const HomeAbout = () => {
     <>
       <section class="trending-auctions">
         <div class="container">
-          <h3 class="main-title">About</h3>
+          <h3 class="main-title">
+            About
+            <div class="underline-wrapper">
+              <div class="underline-circle"></div>
+              <div class="underline-line"></div>
+            </div>
+          </h3>
           <div class="row align-items-center">
             <div class="col-12 col-lg-6">
               <img

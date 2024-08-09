@@ -1,0 +1,18 @@
+/* extra css */
+.underline-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.underline-wrapper .underline-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.underline-wrapper .underline-line {
+  width: 100px;
+  height: 1px;
+  background: #fff;
+}
