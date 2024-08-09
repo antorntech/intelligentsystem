@@ -39,9 +39,9 @@ const HomeBlog = () => {
                         <a href="#0">Nftartwork</a>
                       </span>
                       <h3 class="post-title">
-                        <a href="blog-single.html">
+                        <Link to="/blogs">
                           How to Create Your 1st Crypto NFTs
-                        </a>
+                        </Link>
                       </h3>
                     </div>
                     <div class="author-info d-flex align-items-center">
@@ -71,9 +71,9 @@ const HomeBlog = () => {
                         <a href="#0">Digitalart</a>
                       </span>
                       <h3 class="post-title">
-                        <a href="blog-single.html">
+                        <Link to="/blogs">
                           It’s the Great Chance to Invest in NFTs
-                        </a>
+                        </Link>
                       </h3>
                     </div>
                     <div class="author-info d-flex align-items-center">

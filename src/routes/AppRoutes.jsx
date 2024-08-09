@@ -7,10 +7,12 @@ import Software from "../pages/Software";
 import Training from "../pages/Training";
 import About from "../pages/About";
 import Blogs from "../pages/Blogs";
+import ScrlTopOfPage from "../scrlTopOfPage/ScrlTopOfPage";
 
 const AppRoutes = () => {
   return (
     <>
+      <ScrlTopOfPage />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
