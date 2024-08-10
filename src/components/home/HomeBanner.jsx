@@ -10,9 +10,10 @@ const HomeBanner = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-6 order-lg-0 order-2">
-              <div class="home-content">
+              <div class="home-content animate__animated animate__fadeInLeft">
                 <h1>
-                  Intelligence. Innovation. Future. <span>Now.</span>
+                  Intelligence. Innovation. Future.{" "}
+                  <span className="focus-in-expand">Now.</span>
                 </h1>
                 <p>
                   Create a beautiful software product. Explore the best
@@ -47,7 +48,11 @@ const HomeBanner = () => {
             <div class="col-lg-6 order-lg-0 order-1">
               <div class="right-box">
                 <div class="home-image">
-                  <img class="img-fluid" src="images/home.png" alt="" />
+                  <img
+                    class="img-fluid animate__animated animate__fadeInRight slide-top"
+                    src="images/home.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

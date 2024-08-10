@@ -29,7 +29,11 @@ const HomeExplore = () => {
             </div>
             <div class="col-lg-6">
               <div class="about-image">
-                <img class="img-fluid" src="images/explore.png" alt="" />
+                <img
+                  class="img-fluid slide-top"
+                  src="images/explore.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
