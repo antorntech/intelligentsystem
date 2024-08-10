@@ -21,8 +21,6 @@ const HomePortfolio = () => {
   ];
   return (
     <>
-      {" "}
-      {/* <!-- ========== Start Trending Auctions ========== --> */}
       <section class="trending-auctions">
         <div class="container">
           <div class="row">
@@ -78,7 +76,6 @@ const HomePortfolio = () => {
           </div>
         </div>
       </section>
-      {/* <!-- ========== End Trending Auctions ========== --> */}
     </>
   );
 };
