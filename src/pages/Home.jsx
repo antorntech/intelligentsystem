@@ -5,6 +5,7 @@ import HomeService from "../components/home/HomeService";
 import HomePortfolio from "../components/home/HomePortfolio";
 import HomeExplore from "../components/home/HomeExplore";
 import HomeBlog from "../components/home/HomeBlog";
+import HomeSponsor from "../components/home/HomeSponsor";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <HomeService />
       <HomePortfolio />
       <HomeExplore />
+      <HomeSponsor />
       <HomeBlog />
     </>
   );

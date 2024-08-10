@@ -13,7 +13,7 @@ const HomeBanner = () => {
               <div class="home-content animate__animated animate__fadeInLeft">
                 <h1>
                   Intelligence. Innovation. Future.{" "}
-                  <span className="focus-in-expand">Now.</span>
+                  <span className="banner-span">Now.</span>
                 </h1>
                 <p>
                   Create a beautiful software product. Explore the best
