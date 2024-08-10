@@ -49,7 +49,7 @@ const HomeBanner = () => {
               <div class="right-box">
                 <div class="home-image">
                   <img
-                    class="img-fluid animate__animated animate__fadeInRight slide-top"
+                    class="img-fluid slide-top"
                     src="images/home.png"
                     alt=""
                   />
