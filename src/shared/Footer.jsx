@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -25,22 +26,16 @@ const Footer = () => {
                   <h4>Site map</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="index.html">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="about.html">About us</a>
+                      <Link to="/about">About</Link>
                     </li>
                     <li>
-                      <a href="roadmap.html">Roadmap</a>
-                    </li>
-                    <li>
-                      <a href="team.html">Our Team</a>
+                      <Link to="/our-team">Our Team</Link>
                     </li>
                     <li>
                       <a href="faq.html">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="blog.html">Articles</a>
                     </li>
                   </ul>
                 </div>

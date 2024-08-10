@@ -8,6 +8,7 @@ import Training from "../pages/Training";
 import About from "../pages/About";
 import Blogs from "../pages/Blogs";
 import ScrlTopOfPage from "../scrlTopOfPage/ScrlTopOfPage";
+import Teams from "../pages/Teams";
 
 const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ const AppRoutes = () => {
         <Route path="/training" element={<Training />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about" element={<About />} />
+        <Route path="/our-team" element={<Teams />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Routes>
