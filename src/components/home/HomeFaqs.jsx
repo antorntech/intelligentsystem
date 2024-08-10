@@ -74,7 +74,7 @@ const HomeFaqs = () => {
                   </div>
                   <div
                     id={faq.id}
-                    class="collapse show"
+                    class={`collapse ${activeIndex === index ? "show" : ""}`}
                     aria-labelledby="headingOne"
                     data-parent="#accordion"
                   >
