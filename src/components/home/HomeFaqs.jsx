@@ -10,30 +10,35 @@ const HomeFaqs = () => {
   const faqs = [
     {
       id: "collapseOne",
+      heading: "headingOne",
       question: "What are the Marceline?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     },
     {
       id: "collapseTwo",
+      heading: "headingTwo",
       question: "How do I get Marceline?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     },
     {
       id: "collapseThree",
+      heading: "headingThree",
       question: "How can we buy and invest in Marceline?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     },
     {
       id: "collapseFour",
+      heading: "headingFour",
       question: "Where can we buy and sell Marceline?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     },
     {
       id: "collapseFive",
+      heading: "headingFive",
       question: "Who are the team behind the project?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
@@ -59,13 +64,13 @@ const HomeFaqs = () => {
             <div id="accordion">
               {faqs.map((faq, index) => (
                 <div class="card active">
-                  <div class="card-header" id="headingOne">
+                  <div class="card-header" id={faq.heading}>
                     <h5>
                       <button
                         class="btn btn-link"
                         data-toggle="collapse"
                         data-target={"#" + faq.id}
-                        aria-expanded="true"
+                        aria-expanded={activeIndex === index}
                         aria-controls={faq.id}
                       >
                         {faq.question}
@@ -75,7 +80,7 @@ const HomeFaqs = () => {
                   <div
                     id={faq.id}
                     class={`collapse ${activeIndex === index ? "show" : ""}`}
-                    aria-labelledby="headingOne"
+                    aria-labelledby={faq.heading}
                     data-parent="#accordion"
                   >
                     <div class="card-body">
