@@ -35,7 +35,7 @@ const HomePortfolio = () => {
             </div>
             <div class="col-6">
               <div class="nft-more discover-more text-right">
-                <Link to="#0">
+                <Link to="/software">
                   Discover more <i class="fa fa-angle-right"></i>
                 </Link>
               </div>

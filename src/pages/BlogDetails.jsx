@@ -1,5 +1,6 @@
 import React from "react";
 import PageHeader from "../shared/PageHeader";
+import { Link } from "react-router-dom";
 
 const BlogDetails = () => {
   const blog = {
@@ -9,6 +10,73 @@ const BlogDetails = () => {
     date: "September 17, 2022",
     category: "Digitalart",
   };
+
+  const allBlogs = [
+    {
+      id: 1,
+      title: "How to Create Your 1st Crypto NFTs",
+      image: "/images/blog/1.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 2,
+      title: "How to Create Your 2nd Crypto NFTs",
+      image: "/images/blog/2.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 3,
+      title: "How to Create Your 3rd Crypto NFTs",
+      image: "/images/blog/3.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 4,
+      title: "How to Create Your 4th Crypto NFTs",
+      image: "/images/blog/4.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 5,
+      title: "How to Create Your 5th Crypto NFTs",
+      image: "/images/blog/5.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 6,
+      title: "How to Create Your 6th Crypto NFTs",
+      image: "/images/blog/6.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 7,
+      title: "How to Create Your 7th Crypto NFTs",
+      image: "/images/blog/7.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+    {
+      id: 8,
+      title: "How to Create Your 8th Crypto NFTs",
+      image: "/images/blog/1.jpg",
+      author: "AM Antor",
+      date: "September 17, 2022",
+      category: "Software Development",
+    },
+  ];
 
   const categories = [
     { id: 1, name: "Skill Development Training" },
@@ -258,59 +326,25 @@ const BlogDetails = () => {
                 <div class="sidebar-widget sidebar-recent-posts">
                   <h3 class="sidebar-widget-title">Recent Posts</h3>
                   <div class="sidebar-widget-content">
-                    <div class="sidebar-post">
-                      <div class="post d-flex align-items-center">
-                        <div class="post-thumb">
-                          <a href="blog-single.html">
-                            <img src="/images/blog/1.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="post-content">
-                          <h3 class="post-title">
-                            <a href="blog-single.html">
-                              How to Create Your 1st Crypto NFTs
-                            </a>
-                          </h3>
-                          <div class="post-meta">
-                            <span>September 17, 2022</span>
+                    {allBlogs.slice(0, 3).map((blog) => (
+                      <div key={blog.id} className="sidebar-post">
+                        <div className="post d-flex align-items-center">
+                          <div className="post-thumb">
+                            <Link to={`/blogs/${blog.id}`}>
+                              <img src={blog.image} alt="" />
+                            </Link>
+                          </div>
+                          <div className="post-content">
+                            <h3 className="post-title">
+                              <Link to={`/blogs/${blog.id}`}>{blog.title}</Link>
+                            </h3>
+                            <div className="post-meta">
+                              <span>{blog.date}</span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="post d-flex align-items-center">
-                        <div class="post-thumb">
-                          <a href="blog-single.html">
-                            <img src="/images/blog/2.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="post-content">
-                          <h3 class="post-title">
-                            <a href="blog-single.html">
-                              It’s the Great Chance to Invest in NFTs
-                            </a>
-                          </h3>
-                          <div class="post-meta">
-                            <span>September 17, 2022</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="post d-flex align-items-center">
-                        <div class="post-thumb">
-                          <a href="blog-single.html">
-                            <img src="/images/blog/3.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="post-content">
-                          <h3 class="post-title">
-                            <a href="blog-single.html">
-                              How to Create Your 1st Crypto NFTs
-                            </a>
-                          </h3>
-                          <div class="post-meta">
-                            <span>September 17, 2022</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
               </div>

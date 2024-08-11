@@ -228,9 +228,6 @@ const Blogs = () => {
                             value={searchTerm}
                             onChange={handleSearchChange}
                           />
-                          <button type="submit">
-                            <i className="fa fa-search"></i>
-                          </button>
                         </div>
                       </form>
                     </div>
@@ -255,13 +252,13 @@ const Blogs = () => {
                       <div key={blog.id} className="sidebar-post">
                         <div className="post d-flex align-items-center">
                           <div className="post-thumb">
-                            <a href="blog-single.html">
+                            <Link to={`/blogs/${blog.id}`}>
                               <img src={blog.image} alt="" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="post-content">
                             <h3 className="post-title">
-                              <a href="blog-single.html">{blog.title}</a>
+                              <Link to={`/blogs/${blog.id}`}>{blog.title}</Link>
                             </h3>
                             <div className="post-meta">
                               <span>{blog.date}</span>

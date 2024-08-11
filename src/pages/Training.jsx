@@ -180,9 +180,6 @@ const Training = () => {
                             value={searchTerm}
                             onChange={handleSearchChange}
                           />
-                          <button type="submit">
-                            <i className="fa fa-search"></i>
-                          </button>
                         </div>
                       </form>
                     </div>

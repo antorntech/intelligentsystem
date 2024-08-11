@@ -39,15 +39,12 @@ const HomeBlog = () => {
                         <a href="#0">Nftartwork</a>
                       </span>
                       <h3 class="post-title">
-                        <Link to="/blogs">
+                        <Link to="/blogs/1">
                           How to Create Your 1st Crypto NFTs
                         </Link>
                       </h3>
                     </div>
                     <div class="author-info d-flex align-items-center">
-                      <a class="author-info-thumb" href="#0">
-                        <img class="img-fluid" src="images/avatars/3.jpg" alt />
-                      </a>
                       <div class="author-info-content">
                         <h4 class="author-info-name">
                           <a href="#0">Yassir Yates</a>
@@ -71,15 +68,12 @@ const HomeBlog = () => {
                         <a href="#0">Digitalart</a>
                       </span>
                       <h3 class="post-title">
-                        <Link to="/blogs">
+                        <Link to="/blogs/2">
                           It’s the Great Chance to Invest in NFTs
                         </Link>
                       </h3>
                     </div>
                     <div class="author-info d-flex align-items-center">
-                      <a class="author-info-thumb" href="#0">
-                        <img class="img-fluid" src="images/avatars/1.jpg" alt />
-                      </a>
                       <div class="author-info-content">
                         <h4 class="author-info-name">
                           <a href="#0">Yomna Doe</a>
