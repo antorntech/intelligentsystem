@@ -105,7 +105,7 @@ const Blogs = () => {
     <>
       <PageHeader title="Blogs" />
 
-      <section className="blog">
+      <section className="blog section-animation">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">

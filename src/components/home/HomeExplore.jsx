@@ -10,7 +10,7 @@ const HomeExplore = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
-              <div class="about-info">
+              <div class="about-info animate__animated animate__fadeInLeft">
                 <h4 class="sub-title">Discover More</h4>
                 <h3 class="main-title">Explore & Sell Your Awesome Product</h3>
                 <p>
