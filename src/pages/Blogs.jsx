@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PageHeader from "../shared/PageHeader";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
   const allBlogs = [
@@ -123,7 +124,9 @@ const Blogs = () => {
                               <div className="post-content">
                                 <span className="cat">{blog.category}</span>
                                 <h3 className="post-title">
-                                  <a href="blog-single.html">{blog.title}</a>
+                                  <Link to={`/blogs/${blog.id}`}>
+                                    {blog.title}
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="author-info">

@@ -9,6 +9,7 @@ import About from "../pages/About";
 import Blogs from "../pages/Blogs";
 import ScrlTopOfPage from "../scrlTopOfPage/ScrlTopOfPage";
 import Teams from "../pages/Teams";
+import BlogDetails from "../pages/BlogDetails";
 
 const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ const AppRoutes = () => {
         <Route path="/pricing" element={<Training />} />
         <Route path="/training" element={<Training />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<BlogDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/our-team" element={<Teams />} />
         <Route path="/contact" element={<Contact />} />
