@@ -11,6 +11,9 @@ import ScrlTopOfPage from "../scrlTopOfPage/ScrlTopOfPage";
 import Teams from "../pages/Teams";
 import BlogDetails from "../pages/BlogDetails";
 import ServiceDetails from "../pages/ServiceDetails";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import HelpSupport from "../pages/HelpSupport";
+import TermsCondition from "../pages/TermsCondition";
 
 const AppRoutes = () => {
   return (
@@ -28,6 +31,9 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/our-team" element={<Teams />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/help-support" element={<HelpSupport />} />
+        <Route path="/terms-and-conditions" element={<TermsCondition />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </>

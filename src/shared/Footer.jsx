@@ -34,24 +34,21 @@ const Footer = () => {
                     <li>
                       <Link to="/our-team">Our Team</Link>
                     </li>
-                    <li>
-                      <a href="/faqs">FAQ</a>
-                    </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-2 col-sm-6 col-12 footer-menu">
+              <div class="col-lg-2 col-sm-6 col-12 footer-menu p-0">
                 <div class="footer-item">
                   <h4>Company</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="#0">Help & Support</a>
+                      <Link to="/help-support">Help & Support</Link>
                     </li>
                     <li>
-                      <a href="#0">Terms Canditions</a>
+                      <Link to="/terms-and-conditions">Terms Canditions</Link>
                     </li>
                     <li>
-                      <a href="#0">Privacy Policy</a>
+                      <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
