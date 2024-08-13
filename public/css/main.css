@@ -1811,6 +1811,139 @@ select:-webkit-autofill:focus {
 }
 
 /* --------------------------------------
+   12. Service
+-----------------------------------------*/
+
+.service {
+  padding-top: 120px;
+}
+
+.service .service-items .service-item {
+  margin-bottom: 30px;
+}
+
+.service .service-item {
+  position: relative;
+}
+
+.service .service-item .service-item-thumb {
+  border-radius: 24px 24px 0 0;
+  overflow: hidden;
+}
+
+.service .service-item .service-item-wrap {
+  height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.service .service-item-content {
+  padding: 20px;
+  border-radius: 0 0 24px 24px;
+  border: 1px solid #181f3c;
+}
+
+.service .service-item .service-item-content .post-content {
+  background: transparent;
+  backdrop-filter: none;
+  border: none;
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.service .service-item .service-item-content .post-content .cat {
+  background-image: linear-gradient(124deg, #f95a85, #f70361, #f95420);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service .service-item .service-item-content .service-info {
+  margin-bottom: 0;
+}
+
+.service .service-item .service-item-content .author-info-thumb img {
+  width: 40px;
+  height: 40px;
+}
+
+.service .service-item .service-item-content .author-info-content h4 {
+  font-size: 15px;
+}
+
+.service .service-item .service-item-content .author-info-content span {
+  font-weight: 500;
+}
+
+.service .service-item .service-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(5, 9, 44, 0.15);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(5, 9, 44, 0.04);
+  padding: 30px;
+  border-radius: 0 0 24px;
+}
+
+.service .service-item .author-info-thumb {
+  margin-right: 10px;
+}
+
+.service .service-item .author-info-thumb img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.service .service-item .author-info-content h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.service .service-item .author-info-content span {
+  color: #f1eded;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.service .service-item .post-content .cat {
+  display: inline-block;
+  color: #f1eded;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 7px;
+}
+
+.service .service-item .post-content h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service .service-item .post-content h3:hover {
+  background-image: linear-gradient(124deg, #f95a85, #f70361, #f95420);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* --------------------------------------
    13. Contact
 -----------------------------------------*/
 

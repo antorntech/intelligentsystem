@@ -59,7 +59,7 @@ const Services = () => {
                   <div class="nft-box-thumb">
                     <img class="img-fluid" src={service.banner} alt="" />
                     <div class="nft-box-btn-content">
-                      <Link to="/service-details" class="nft-box-btn">
+                      <Link to={`/services/${service.id}`} class="nft-box-btn">
                         Read More <i class="fa fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -67,7 +67,9 @@ const Services = () => {
                   <div class="nft-box-content">
                     <div class="nft-box-title-wrap">
                       <h3 class="nft-box-title">
-                        <a href="#0">{service.title}</a>
+                        <Link to={`/services/${service.id}`}>
+                          {service.title}
+                        </Link>
                       </h3>
                       <p class="nft-box-text mt-3">{service.description}</p>
                     </div>

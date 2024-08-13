@@ -10,6 +10,7 @@ import Blogs from "../pages/Blogs";
 import ScrlTopOfPage from "../scrlTopOfPage/ScrlTopOfPage";
 import Teams from "../pages/Teams";
 import BlogDetails from "../pages/BlogDetails";
+import ServiceDetails from "../pages/ServiceDetails";
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/services/:id" element={<ServiceDetails />} />
         <Route path="/software" element={<Software />} />
         <Route path="/pricing" element={<Training />} />
         <Route path="/training" element={<Training />} />
