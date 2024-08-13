@@ -100,11 +100,6 @@ const Footer = () => {
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
-                <li>
-                  <a href="#0">
-                    <i class="fa fa-behance"></i>
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
