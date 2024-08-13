@@ -12,7 +12,7 @@ const Footer = () => {
               <div class="col-lg-4 col-sm-6 col-12 footer-menu">
                 <div class="footer-logo">
                   <a class="my-logo" href="index.html">
-                    <img class="img-fluid" src="images/logo.png" alt="" />
+                    <img class="img-fluid" src="/images/logo.png" alt="" />
                   </a>
                 </div>
                 <p>
