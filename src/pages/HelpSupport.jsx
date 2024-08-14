@@ -19,10 +19,12 @@ const HelpSupport = () => {
             <div className="col-md-4 mb-4">
               <div className="help-card text-center">
                 <div className="help-card-body">
-                  <i
-                    className="fa fa-envelope-o fa-2x mb-3"
-                    aria-hidden="true"
-                  ></i>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/nzixoeyk.json"
+                    trigger="loop"
+                    colors="primary:#ffffff"
+                    style={{ width: "50px", height: "50px" }}
+                  ></lord-icon>
                   <h5 className="help-card-title">Email Support</h5>
                   <p className="help-card-text">
                     Get in touch with us via email.
@@ -36,7 +38,13 @@ const HelpSupport = () => {
             <div className="col-md-4 mb-4">
               <div className="help-card text-center">
                 <div className="help-card-body">
-                  <i className="fa fa-phone fa-2x mb-3" aria-hidden="true"></i>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/rsvfayfn.json"
+                    trigger="loop"
+                    delay="2000"
+                    colors="primary:#ffffff"
+                    style={{ width: "50px", height: "50px" }}
+                  ></lord-icon>
                   <h5 className="help-card-title">Phone Support</h5>
                   <p className="help-card-text">
                     Call us for immediate support.
@@ -50,10 +58,13 @@ const HelpSupport = () => {
             <div className="col-md-4 mb-4">
               <div className="help-card text-center">
                 <div className="help-card-body">
-                  <i
-                    className="fa fa-comments-o fa-2x mb-3"
-                    aria-hidden="true"
-                  ></i>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fdxqrdfe.json"
+                    trigger="loop"
+                    delay="2000"
+                    colors="primary:#ffffff"
+                    style={{ width: "50px", height: "50px" }}
+                  ></lord-icon>
                   <h5 className="help-card-title">Live Chat</h5>
                   <p className="help-card-text">
                     Chat with our support team live.
