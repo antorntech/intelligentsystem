@@ -3043,3 +3043,26 @@ select:-webkit-autofill:focus {
   color: #6c757d;
   margin-bottom: 10px;
 }
+
+/* privacy-policy */
+.privacy-policy {
+  padding-top: 120px;
+}
+
+.privacy-policy p {
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.privacy-policy h4 {
+  font-size: 25px;
+  color: #6c757d;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.privacy-policy ul li {
+  font-size: 20px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}

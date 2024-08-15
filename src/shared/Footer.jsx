@@ -11,9 +11,9 @@ const Footer = () => {
             <div class="row">
               <div class="col-lg-4 col-sm-6 col-12 footer-menu">
                 <div class="footer-logo">
-                  <a class="my-logo" href="index.html">
+                  <Link to="/" class="my-logo">
                     <img class="img-fluid" src="/images/logo.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <p>
                   Dolor repellendus temporibus autem quibus dam et aut officiis

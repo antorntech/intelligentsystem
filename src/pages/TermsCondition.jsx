@@ -15,7 +15,7 @@ const TermsCondition = () => {
               and IT Training Institute's website.
             </p>
 
-            <h4>1. Introduction</h4>
+            <h4 className="mt-4">1. Introduction</h4>
             <p>
               By accessing this website, you agree to comply with and be bound
               by the following terms and conditions of use, which together with
@@ -23,7 +23,7 @@ const TermsCondition = () => {
               you in relation to this website.
             </p>
 
-            <h4>2. Use of the Website</h4>
+            <h4 className="mt-4">2. Use of the Website</h4>
             <p>
               The content of this website is for your general information and
               use only. It is subject to change without notice. Neither we nor
@@ -33,14 +33,14 @@ const TermsCondition = () => {
               any particular purpose.
             </p>
 
-            <h4>3. Intellectual Property</h4>
+            <h4 className="mt-4">3. Intellectual Property</h4>
             <p>
               All intellectual property rights in the content and materials on
               this website are owned by or licensed to Intelligent-System. You
               may view, download, and print pages from the website for your own
               personal use, subject to the restrictions set out below.
             </p>
-            <ul>
+            <ul className="mt-4">
               <div className="d-flex align-items-start mb-2">
                 <img src="/images/icons/checked.png" alt="" className="mr-2" />
                 <li className="m-0">
@@ -63,7 +63,7 @@ const TermsCondition = () => {
               </div>
             </ul>
 
-            <h4>4. Enrollment and Payment</h4>
+            <h4 className="mt-4">4. Enrollment and Payment</h4>
             <p>
               By enrolling in our courses, you agree to pay the specified fees.
               Payment must be made in full prior to the commencement of the
@@ -71,7 +71,7 @@ const TermsCondition = () => {
               outlined in our refund policy.
             </p>
 
-            <h4>5. Limitation of Liability</h4>
+            <h4 className="mt-4">5. Limitation of Liability</h4>
             <p>
               Intelligent-System will not be liable for any loss or damage,
               including without limitation, indirect or consequential loss or
@@ -80,7 +80,7 @@ const TermsCondition = () => {
               website.
             </p>
 
-            <h4>6. Governing Law</h4>
+            <h4 className="mt-4">6. Governing Law</h4>
             <p>
               These terms and conditions are governed by and construed in
               accordance with the laws of [Your Jurisdiction], and you
@@ -88,7 +88,7 @@ const TermsCondition = () => {
               that State or location.
             </p>
 
-            <h4>7. Changes to the Terms</h4>
+            <h4 className="mt-4">7. Changes to the Terms</h4>
             <p>
               We may revise these terms and conditions from time to time. The
               revised terms and conditions will apply to the use of our website
