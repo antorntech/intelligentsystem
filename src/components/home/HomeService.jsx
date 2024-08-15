@@ -76,7 +76,7 @@ const HomeService = () => {
                           {service.title}
                         </Link>
                       </h3>
-                      <p class="nft-box-text mt-3">{service.description}</p>
+                      <p class="nft-box-text mt-2">{service.description}</p>
                     </div>
                   </div>
                 </div>

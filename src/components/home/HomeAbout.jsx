@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomeAbout = () => {
   return (
     <>
-      <section class="trending-auctions">
+      <section>
         <div class="container">
           <h3 class="main-title">
             About
