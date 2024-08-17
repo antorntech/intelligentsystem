@@ -48,15 +48,20 @@ const HomePortfolio = () => {
                   <div class="nft-box-thumb">
                     <img class="img-fluid" src={portfolio.banner} alt="" />
                     <div class="nft-box-btn-content">
-                      <a href="#0" class="nft-box-btn">
+                      <Link
+                        to={`/software/${portfolio.id}`}
+                        class="nft-box-btn"
+                      >
                         Explore <i class="fa fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div class="nft-box-content">
                     <div class="nft-box-title-wrap d-flex align-items-center justify-content-between">
                       <h3 class="nft-box-title">
-                        <a href="#0">{portfolio.title}</a>
+                        <Link to={`/software/${portfolio.id}`}>
+                          {portfolio.title}
+                        </Link>
                       </h3>
                       <div class="nft-box-trending-icon">
                         <span>
