@@ -1702,6 +1702,13 @@ select:-webkit-autofill:focus {
   overflow: hidden;
 }
 
+.blog .blog-item .blog-item-thumb img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .blog .blog-item .blog-item-wrap {
   height: 420px;
   background-position: center;

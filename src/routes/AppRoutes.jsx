@@ -14,6 +14,7 @@ import ServiceDetails from "../pages/ServiceDetails";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import HelpSupport from "../pages/HelpSupport";
 import TermsCondition from "../pages/TermsCondition";
+import SoftwareDetails from "../pages/SoftwareDetails";
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<ServiceDetails />} />
         <Route path="/software" element={<Software />} />
+        <Route path="/software/:id" element={<SoftwareDetails />} />
         <Route path="/pricing" element={<Training />} />
         <Route path="/training" element={<Training />} />
         <Route path="/blogs" element={<Blogs />} />

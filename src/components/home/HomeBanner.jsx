@@ -23,7 +23,7 @@ const HomeBanner = () => {
                   <Link to="/services" class="main-btn">
                     <i class="fa fa-rocket"></i> <span>Explore Items</span>
                   </Link>
-                  <Link to="/" class="main-btn custom-btn">
+                  <Link to="/software" class="main-btn custom-btn">
                     <span>Learn More</span> <i class="fa fa-arrow-right"></i>
                   </Link>
                 </div>
