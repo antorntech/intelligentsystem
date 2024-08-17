@@ -82,17 +82,17 @@ const Teams = () => {
                   <div>
                     <ul class="media-icons d-flex align-items-center">
                       <li>
-                        <Link to={team.facebookLink}>
+                        <Link to={team.facebookLink} target="_blank">
                           <i class="fa fa-facebook"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link to={team.twitterLink}>
+                        <Link to={team.twitterLink} target="_blank">
                           <i class="fa fa-twitter"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link to={team.linkedinLink}>
+                        <Link to={team.linkedinLink} target="_blank">
                           <i class="fa fa-linkedin"></i>
                         </Link>
                       </li>

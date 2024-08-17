@@ -146,13 +146,13 @@ const BlogDetails = () => {
                         <h5>Tags</h5>
                         <ul class="tags-list list-unstyled">
                           <li>
-                            <a href="#">web development</a>
+                            <span>web development</span>
                           </li>
                           <li>
-                            <a href="#">cyber security</a>
+                            <span>cyber security</span>
                           </li>
                           <li>
-                            <a href="#">artificial intelligence</a>
+                            <span>artificial intelligence</span>
                           </li>
                         </ul>
                       </div>
